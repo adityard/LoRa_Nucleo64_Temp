@@ -22,8 +22,8 @@ void loop()
   //String msg = "Temperature is " + String(tempf) + "°F";
 
   //Uncomment Line 25 and 26 for temperature in both Celcius and Farenhite
-  float tempf = (tempc*9.0)/5.0 + 32;
-   msg  = msg + "/"+ String(tempf) + "°F";
+  //float tempf = (tempc*9.0)/5.0 + 32;
+  //msg  = msg + "/"+ String(tempf) + "°F";
    
   Serial.print("Sending message ");
   Serial.println(msg);
